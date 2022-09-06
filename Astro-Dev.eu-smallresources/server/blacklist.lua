@@ -1,0 +1,1 @@
+-- W przyszłości zostanie dodana BlackLista na: pojazdy, pedy, obiekty, bronie 
