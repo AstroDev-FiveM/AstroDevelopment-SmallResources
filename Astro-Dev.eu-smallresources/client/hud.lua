@@ -8,6 +8,7 @@ Citizen.CreateThread(function()
     while true do
         Wait(1500)
         BeginScaleformMovieMethod(minimap, "SETUP_HEALTH_ARMOUR")
+        SetBlipAlpha(GetNorthRadarBlip(), 0) -- usuwa znaczek N
         ScaleformMovieMethodAddParamInt(3)
         EndScaleformMovieMethod()
     end
