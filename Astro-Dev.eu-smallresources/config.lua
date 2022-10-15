@@ -17,4 +17,7 @@ Config.WylaczKropka = false -- Ustaw na false jeżeli chcesz mieć kropka podcza
 -- Hud z GTA V
 Config.PancerziZdrowie = true -- Ustaw na true jeżeli chcesz usunąć paski Pancerza i Zdrowia, ustaw na false jezeli chcesz je zostawić
 Config.Minimapa = true -- Ustaw na true jeżeli chcesz usunąć minmape kiedy gracz jest poza pojazdem
+
+-- snippets
+Config.Pociagi = true
  
