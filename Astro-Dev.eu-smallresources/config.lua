@@ -20,5 +20,4 @@ Config.Minimapa = true -- Ustaw na true jeżeli chcesz usunąć minmape kiedy gr
 
 -- snippets
 Config.Pociagi = true
-Config.Silnik = true
  
