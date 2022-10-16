@@ -19,4 +19,5 @@ Config.Minimapa = true -- Ustaw na true jeżeli chcesz usunąć minmape kiedy gr
 
 -- Snippets
 Config.Pociagi = true
+Config.CustomoweFaleWoda = true
  
