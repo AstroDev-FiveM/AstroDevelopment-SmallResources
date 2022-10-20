@@ -16,18 +16,12 @@ end
 end)
 
 -- Usuwanie minimapki w momencie gdy gracz nie jest w pojeździe 
-Citizen.CreateThread(function()
-    if Config.Minimapa then 
-    Citizen.Wait(1500)
-    while true do
-        local sleepThread = 1500
-        local radarEnabled = IsRadarEnabled()
-        if not IsPedInAnyVehicle(PlayerPedId()) and radarEnabled then
-            DisplayRadar(false)
-        elseif IsPedInAnyVehicle(PlayerPedId()) and not radarEnabled then
-            DisplayRadar(true)
-        end
-        Citizen.Wait(sleepThread)
-    end
-end
+
+CreateThread(function()
+  if Config.Minimapa then 
+  while true do
+    DisplayRadar(GetVehiclePedIsIn(PlayerPedId(), false) > 0)
+    Wait(500)
+   end
+  end
 end)
